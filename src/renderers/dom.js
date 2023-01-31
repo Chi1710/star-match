@@ -5,7 +5,7 @@ import { App } from 'components/App';
 
 import '../styles/index.css';
 
-ReactDOM.hydrate(
+ReactDOM.render(
   <App initialData={window.__R_DATA.initialData} />,
   document.getElementById('root'),
 );
